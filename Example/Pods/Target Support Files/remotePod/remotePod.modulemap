@@ -1,0 +1,6 @@
+framework module remotePod {
+  umbrella header "remotePod-umbrella.h"
+
+  export *
+  module * { export * }
+}
