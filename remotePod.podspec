@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'remotePod'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of remotePod.'
+  s.version          = '0.1.1'
+  s.summary          = 'remotePod'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Gabriellamm/remotePod'
+  s.homepage         = 'https://github.com/Gabriellamm/remotePod.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Gabriellamm' => '379713491@qq.com' }
@@ -38,5 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-s.dependency 'AFNetworking', '~> 2.3'
+  # s.dependency 'AFNetworking', '~> 2.3'
 end
